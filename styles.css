@@ -1,0 +1,45 @@
+.container{
+    
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 70px 80px 80px 80px 80px 80px;
+    grid-gap: 5px;
+    margin: 3% 35%;
+    
+}
+
+input{
+    
+    grid-column: 1/ 5;
+    background-color: #231e23;
+    color: #fff;
+    border: none;
+    font-size: 1.6rem;
+    text-align: right;
+    caret-color: transparent;
+    padding-right: 4%;
+}
+
+input:focus{
+    
+    outline: none;
+}
+
+.equalTo{
+    
+    grid-column: 4;
+    grid-row: 3 / span 4;
+}
+
+.btn{
+    
+    background-color: #cf0000;
+    color: #fff;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.btn:hover{
+    
+    background-color: #ff5200;
+}
